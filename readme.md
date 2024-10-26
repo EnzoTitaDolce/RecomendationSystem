@@ -11,7 +11,7 @@ Dichos datos están distribuidos en 3 datasets contienen información sobre:
 -Las reseñas que los usuarios hicieron sobre los distintos juegos que adquirieron
 
 ##Desarrollo##
-Para llevar a cabo el trabajo utilizcé las librerías estandar para el procesamiento de datos (pandas, numpy, matplotlib, etc)  y algunas específicas para el modelo de recomendación (scikit-learn), ntlk para el procesamiento de las reseñas y otras como ast para convertir strings en listas, entre otras.
+Para llevar a cabo el trabajo utilicé las librerías estandar para el procesamiento de datos (pandas, numpy, matplotlib, etc)  y algunas específicas para el modelo de recomendación (scikit-learn), ntlk para el procesamiento de las reseñas y otras como ast para convertir strings en listas, entre otras.
 
 ###Preparación de archivos###
 El notebook llamado exploracion_archivos contiene todo el trabajo necesario para poder extraer los datos de los datasets. En ese notebook extraigo los datos de los archivos en formato gz y los convierto a un dataframe, desanido las listas y diccionarios que correspondan y hago el análisis de las reseñas asignandoles un puntaje de 2 para las positivas, 1 para las neutrales y ausentes y 0 para las negativas.
