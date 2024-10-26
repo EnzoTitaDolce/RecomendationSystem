@@ -1,4 +1,5 @@
-#Proyecto Individual Data Science PT-06#
+#Proyecto Data Science#
+##Sistema de Recomendación##
 ##Autor: Enzo Giancarlo Tita Dolce##
 ###Fecha: 07/02/2024##
 
